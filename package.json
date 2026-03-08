@@ -2,7 +2,10 @@
 	"name": "@involvex/prettier-config",
 	"version": "0.0.1",
 	"description": "Shared Prettier config for my projects",
-	"repository": "involvex/prettier-config",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/involvex/prettier-config.git"
+	},
 	"funding": {
 		"url": "https://github.com/sponsors/involvex"
 	},
