@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm install --save-dev @vdemedes/prettier-config
+$ npm install --save-dev @involvex/prettier-config
 ```
 
 ## Usage
@@ -14,6 +14,6 @@ Add this to your `package.json`:
 
 ```json
 {
-	"prettier": "@vdemedes/prettier-config"
+	"prettier": "@involvex/prettier-config"
 }
 ```
