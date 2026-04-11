@@ -5,13 +5,17 @@ AGENTS.md is a centralized documentation file for Agentic coding agents operatin
 ## Overview
 
 - Repository: `@involvex/prettier-config`
-- Version: `0.0.2`
+- Version: `0.0.5`
 - Dependencies:
-  - `prettier` (`3.8.1`)
+  - `prettier` (`3.8.2`)
   - `prettier-plugin-organize-imports`
   - `prettier-plugin-packagejson`
   - `prettier-plugin-sort-imports`
-  - `prettier-plugin-sponsors`
+  - `prettier-plugin-markdown-html`
+  - `prettier-plugin-yaml`
+  - `prettier-plugin-toml`
+  - `prettier-plugin-prisma`
+  - `prettier-plugin-properties`
 
 ## Setup and Configuration
 
@@ -20,7 +24,7 @@ AGENTS.md is a centralized documentation file for Agentic coding agents operatin
 Run the following command to install all required dependencies:
 
 ```bash
-npm install
+bun install
 ```
 
 #### 2. Configure Prettier
@@ -29,9 +33,9 @@ Extend the `index.json` configuration file for project-specific Prettier setting
 
 #### 3. Linting and Testing
 
-- Check code formatting: `npm run prettier-check`
-- Format all files: `npm run prettier`
-- Run tests: `npm run test`
+- Check code formatting: `bun run prettier-check`
+- Format all files: `bun run prettier`
+- Run tests: `bun test`
 
 ## Best Practices and Guidelines
 

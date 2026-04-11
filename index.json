@@ -6,9 +6,17 @@
 	"bracketSpacing": false,
 	"arrowParens": "avoid",
 	"trailingComma": "all",
+	"htmlWhitespaceSensitivity": "css",
+	"singleAttributePerLine": true,
+	"proseWrap": "preserve",
 	"plugins": [
 		"prettier-plugin-organize-imports",
 		"prettier-plugin-packagejson",
-		"prettier-plugin-sort-imports"
+		"prettier-plugin-sort-imports",
+		"prettier-plugin-markdown-html",
+		"prettier-plugin-yaml",
+		"prettier-plugin-toml",
+		"prettier-plugin-prisma",
+		"prettier-plugin-properties"
 	]
 }
